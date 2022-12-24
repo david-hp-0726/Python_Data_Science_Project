@@ -34,7 +34,7 @@ This project aims to study the influence of Covid-19 on mental health. Specifica
 <img width="721" alt="Screen Shot 2022-12-24 at 1 18 52 PM" src="https://user-images.githubusercontent.com/120674894/209451269-038a483e-8d6d-46ff-85a0-d1904a7d4a31.png">
 
 ### Table 2
-<img width="691" alt="Screen Shot 2022-12-24 at 1 19 11 PM" src="https://user-images.githubusercontent.com/120674894/209451271-57a11e49-aa81-4ec9-9634-3d5a53a99bcd.png">
+<img width="690" alt="Screen Shot 2022-12-24 at 1 20 41 PM" src="https://user-images.githubusercontent.com/120674894/209451294-41974605-25b7-455d-b381-dc88b7d0f90b.png">
 
 ### Table 3
 <img width="690" alt="Screen Shot 2022-12-24 at 1 19 26 PM" src="https://user-images.githubusercontent.com/120674894/209451275-d04eef73-eb53-4ff7-bc3d-17898941a05c.png">
