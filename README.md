@@ -76,3 +76,9 @@ Data are collected from multiple sources, cleaned up, and compiled into the foll
 
 ### Table 3
 <img width="690" alt="Screen Shot 2022-12-24 at 1 19 26 PM" src="https://user-images.githubusercontent.com/120674894/209451275-d04eef73-eb53-4ff7-bc3d-17898941a05c.png">
+
+# Next Tasks
+1. Come up with more research questions
+2. Add descriptions to the plots
+3. Build statistics models for data (maybe?)
+
