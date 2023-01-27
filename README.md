@@ -30,10 +30,11 @@ Data are collected from multiple sources, cleaned up, and compiled into the foll
 |***Pct_Depression***|Percentage of adults who reported symptoms of major depressive disorder|
 |***Pct_Anxiety_Or_Depression***|Percentage of adults who reported symptoms of generalized anxiety disorder or major depressive disorder|
 
-### Merged Data
+### Merged Data (Mental Health Data & Economic Indicators Data)
 |Variable Name|Description|
 |:-----:|:-----|
 |***State***|The state's name|
+|***Date***|The month when data was recorded|
 |***Fips***|Fips code of the state|
 |***Population***|The population size of the state|
 |***Pct_Anxiety***|Percentage of adults who reported symptoms of generalized anxiety disorder|
@@ -50,6 +51,10 @@ Data are collected from multiple sources, cleaned up, and compiled into the foll
 |***Farm_Income_Change***|Percent change in **total** income generated in farm sectors from the preceding period|
 |***Nonfarm_Income_Change***|Percent change in **total** income generated in nonfarm sectors from the preceding period|
 |***Pct_Unemployed***|Percent of the labor force unemployed|
+
+### Policy Data
+|Variable Name|Description|
+|:-----:|:-----|
 
 
 # Plots & Tables
