@@ -55,7 +55,11 @@ Data are collected from multiple sources, cleaned up, and compiled into the foll
 ### Policy Data
 |Variable Name|Description|
 |:-----:|:-----|
-
+|***State***|The state's name|
+|***Date***|The month when data was recorded|
+|***Policy***|The covid-19 related policy introduced|
+|***Policy_Category***|The type of policy introduced|
+|***Policy_Stage***|Whether the policy starts or terminates|
 
 # Plots & Tables
 ### Plot 1
