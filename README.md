@@ -5,6 +5,7 @@ This project aims to study the influence of Covid-19 on mental health. Specifica
 2. What socioeconomic factors have been correlated with mental health?
 3. Which demographics have been the most vulnerable to mental health issues?
 
+
 ### Data Sources
 - [Mental Health Data] from the Household Pulse Survey Conducted by Center for Disease Control 
 - [Economic Indicators Data] from the Bureau of Economic Analysis 
@@ -13,6 +14,43 @@ This project aims to study the influence of Covid-19 on mental health. Specifica
 [Mental Health Data]: https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm
 [Economic Indicators Data]: https://www.bea.gov/itable/
 [Covid-19 Data]: https://github.com/nytimes/covid-19-data 
+
+
+# Code Book
+Data are collected from multiple sources, cleaned up, and compiled into the following datasets. 
+
+### Mental Health Data
+|Variable Name|Description|
+|:-----:|:-----|
+|***State***|The state's name|
+|***Date***|The month when data was recorded|
+|***Grouping Method***|How observations are grouped|
+|***Group***|The group the data belongs to|
+|***Pct_Anxiety***|Percentage of adults who reported symptoms of generalized anxiety disorder|
+|***Pct_Depression***|Percentage of adults who reported symptoms of major depressive disorder|
+|***Pct_Anxiety_Or_Depression***|Percentage of adults who reported symptoms of generalized anxiety disorder or major depressive disorder|
+
+### Merged Data
+|Variable Name|Description|
+|:-----:|:-----|
+|***State***|The state's name|
+|***Fips***|Fips code of the state|
+|***Population***|The population size of the state|
+|***Pct_Anxiety***|Percentage of adults who reported symptoms of generalized anxiety disorder|
+|***Pct_Depression***|Percentage of adults who reported symptoms of major depressive disorder|
+|***Pct_Anxiety_Or_Depression***|Percentage of adults who reported symptoms of generalized anxiety disorder or major depressive disorder|
+|***New_Cases***|Total number of new covid cases in the specified month|
+|***New_Deaths***|Total number of new covid deaths in the specified month|
+|***Cum_Cases***|Cumulative number of covid cases|
+|***Cum_Deaths***|Cumulative number of covid deaths|
+|***Pct_Infection***|Percent of the state's population|
+|***Gdp_Change***|Percent change in gdp from the preceding period|
+|***Income_Change***|Percent change in **per-capita** personal income from the preceding period|
+|***Adjusted_Income_Change***|Percent change in seasonally adjusted **per-capita** personal income from the preceding period|
+|***Farm_Income_Change***|Percent change in **total** income generated in farm sectors from the preceding period|
+|***Nonfarm_Income_Change***|Percent change in **total** income generated in nonfarm sectors from the preceding period|
+|***Pct_Unemployed***|Percent of the labor force unemployed|
+
 
 # Plots & Tables
 ### Plot 1
