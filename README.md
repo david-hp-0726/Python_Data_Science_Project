@@ -85,9 +85,8 @@ The top-4 relevant variables identified by the model are percent employment, num
 ### Plot 3: Feature Importances
 ![feature_importances](https://user-images.githubusercontent.com/120674894/219057099-7f04e3a7-05b8-47d0-b5f6-b3366a43cc89.png)
 
-
 ### Plot 4: Correlations between Features and Target Varialbe
-![feature_scatter](https://user-images.githubusercontent.com/120674894/218910030-0ba581ee-75e9-4d6c-855c-b18a47aa7538.png)
+![feature_scatter](https://user-images.githubusercontent.com/120674894/219057791-eaba97cb-3d06-43f3-a702-b726222be29f.png)
 
 
 ### Model Performance
