@@ -83,7 +83,8 @@ For the purpose of this question, a XGBoost model was created. XGBoost is a supe
 The top-4 relevant variables identified by the model are percent employment, number of daily new deaths, number of daily new cases, and quarterly gdp change. Scatter plots are created to better visualize the relationship between these variables and mental health, with the features on the x axis and the target variable on the y axis. 
 
 ### Plot 3: Feature Importances
-![feature_importances](https://user-images.githubusercontent.com/120674894/218909969-75d71938-4a76-4f3d-910c-81274f857923.png)
+![feature_importances](https://user-images.githubusercontent.com/120674894/219057099-7f04e3a7-05b8-47d0-b5f6-b3366a43cc89.png)
+
 
 ### Plot 4: Correlations between Features and Target Varialbe
 ![feature_scatter](https://user-images.githubusercontent.com/120674894/218910030-0ba581ee-75e9-4d6c-855c-b18a47aa7538.png)
