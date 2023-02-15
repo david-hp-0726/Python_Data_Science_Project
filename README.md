@@ -17,6 +17,8 @@ This project aims to study the influence of Covid-19 on mental health. Specifica
 
 
 # Code Book
+![test](https://user-images.githubusercontent.com/120674894/218905515-7ec068d8-7468-4113-b30c-16fa3f3ecfe9.png)
+
 Data are collected from multiple sources, cleaned up, and compiled into the following [datasets](https://github.com/david-hp-0726/Python_Data_Science_Project/blob/main/Data%20Overview.ipynb). 
 
 ### Mental Health Data
