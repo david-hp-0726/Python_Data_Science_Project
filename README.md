@@ -73,7 +73,7 @@ A line chart is created to model the trend in major depressive disorder and gene
 
 ## Question 2: What are some variables that can predict mental health?
 ### Model Selection: XGBoost (Extreme Gradient Boosting)
-For the purpose of this question, a XGBoost model was created. XGBoost is a supervised learning algorithm suitable for performing regression analysis on time-series data. The model is applied separate to each US state, with 75% of data used for training and 25% of data used for validation. The following plots are created using data from the state of New York. 
+For the purpose of this question, a XGBoost model was created. XGBoost is a supervised learning algorithm well-suited for performing regression analysis on time-series data. The model is applied separate to each US state, with 75% of data used for training and 25% of data used for validation. The following plots are created using data from the state of New York. 
 
 ### Plot 2: Train Test Data Distribution
 ![data_distribution](https://user-images.githubusercontent.com/120674894/218908822-8a746a09-8473-477c-a258-1198558374ba.png)
