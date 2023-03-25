@@ -117,6 +117,17 @@ To answer this question, data is divided into categories based on the variables 
 ### Plot 11: Mental Health Trend Grouped by Disability Status
 ![health_disability](https://user-images.githubusercontent.com/120674894/218912252-f09c5601-d778-45f1-97cd-c06ee0095c48.png)
 
+## Post Analysis
+### 1. How did the model performance in terms of prediction accuracy?
+### Plot 12: Model Performance on Training Data
+![performance_train](https://user-images.githubusercontent.com/120674894/227739391-2575e565-7e59-40f2-9cfa-0bfa12443271.png)
+
+### Plot 13: Model Performance on Validation Data
+![performance_test](https://user-images.githubusercontent.com/120674894/227739394-22ca8bcd-c5ce-4008-b315-8ef1557ad589.png)
+
+### 2. What are the most important features, or the most relevant factors to predicting mental health trends?
+### Plot 14: Relative Importance of Variables
+![overall_feature_importances](https://user-images.githubusercontent.com/120674894/227739400-bf1b407d-06a8-4fd9-8723-e76458f420a7.png)
 
 # Limitations
 ### Table 2
