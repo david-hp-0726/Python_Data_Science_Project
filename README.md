@@ -102,37 +102,53 @@ The model had been manually tuned to optimize performance. The plots below compa
 ![predictions_test](https://user-images.githubusercontent.com/120674894/218911092-af674e55-507e-409e-9841-7f7f1b3185e1.png)
 
 
-## Question 3: Which demographics have been worst influenced by mental health issues?
-To answer this question, data is divided into categories based on the variables of interest (i.e. age, sex, education level, disability status). Line plots are created to visualize how mental health trends differ for different subgroups.
-
-#### Plot 8: Mental Health Trend Grouped by Age
-![health_age](https://user-images.githubusercontent.com/120674894/218912211-7ab70a16-cd68-4780-9d22-9fc64ac51204.png)
-
-#### Plot 9: Mental Health Trend Grouped by Sex
-![health_sex](https://user-images.githubusercontent.com/120674894/218912221-e6ac1330-0424-4314-919a-3491d84cc96c.png)
-
-#### Plot 10: Mental Health Trend Grouped by Education Level
-![health_education](https://user-images.githubusercontent.com/120674894/218912238-fba167ef-b347-47ef-852b-e329caacc360.png)
-
-#### Plot 11: Mental Health Trend Grouped by Disability Status
-![health_disability](https://user-images.githubusercontent.com/120674894/218912252-f09c5601-d778-45f1-97cd-c06ee0095c48.png)
-
-## Post Analysis
+## Model Analysis 
 ### 1. How did the model performance in terms of prediction accuracy?
-#### Plot 12: Model Performance on Training Data
+#### Plot 8: Model Performance on Training Data
 ![performance_train](https://user-images.githubusercontent.com/120674894/227739391-2575e565-7e59-40f2-9cfa-0bfa12443271.png)
 
-#### Plot 13: Model Performance on Validation Data
+#### Plot 9: Model Performance on Validation Data
 ![performance_test](https://user-images.githubusercontent.com/120674894/227739394-22ca8bcd-c5ce-4008-b315-8ef1557ad589.png)
 
 ### 2. What are the most important features, or the most relevant factors to predicting mental health trends?
-#### Plot 14: Relative Importance of Variables
+#### Plot 10: Relative Importance of Variables
 ![overall_feature_importances](https://user-images.githubusercontent.com/120674894/227739400-bf1b407d-06a8-4fd9-8723-e76458f420a7.png)
 
+### 3. What are some factors that influence model performance?
+### Learning Rate
+#### Plot 11: Model Performance under Different Learning Rates
+![performance_learning_rate](https://user-images.githubusercontent.com/120674894/228962677-79c7cb81-c428-42dd-a756-6dd1e889f718.png)
+
+### Train-Test Ratio
+#### Plot 12: Model Performance under Different Train-Test Ratios
+![performance_train_test_ratio](https://user-images.githubusercontent.com/120674894/228962693-8085f505-e442-4c2c-b880-cd6d1165f9b2.png)
+
+### Stationarity
+#### Plot 17: Model Performance on Stationary vs Nonstationary Data
+![performance_stationarity](https://user-images.githubusercontent.com/120674894/228962749-ef80871c-e261-4c63-bfc3-6fe104014515.png)
+
+
+## Question 3: Which demographics have been worst influenced by mental health issues?
+To answer this question, data is divided into categories based on the variables of interest (i.e. age, sex, education level, disability status). Line plots are created to visualize how mental health trends differ for different subgroups.
+
+#### Plot 13: Mental Health Trend Grouped by Age
+![health_age](https://user-images.githubusercontent.com/120674894/218912211-7ab70a16-cd68-4780-9d22-9fc64ac51204.png)
+
+#### Plot 14: Mental Health Trend Grouped by Sex
+![health_sex](https://user-images.githubusercontent.com/120674894/218912221-e6ac1330-0424-4314-919a-3491d84cc96c.png)
+
+#### Plot 15: Mental Health Trend Grouped by Education Level
+![health_education](https://user-images.githubusercontent.com/120674894/218912238-fba167ef-b347-47ef-852b-e329caacc360.png)
+
+#### Plot 16: Mental Health Trend Grouped by Disability Status
+![health_disability](https://user-images.githubusercontent.com/120674894/218912252-f09c5601-d778-45f1-97cd-c06ee0095c48.png)
+
+
 # Limitations
+There are several limitations to this study that need to be acknowledged. First, the entirely analysis is based on data gathered from a rather short period of only two years. This largely reduces the reliability of our result. Moreover, the majority time-series data is highly nonstationary, meaning that the data fluctuate with no observable pattern. This could mean that there are some larger trends aside from Covid-19 that affect the prevalence of mental health issues that can only be identified through analysis on long spans of time, such as economic growth and social sentiment. Due to limited data, our analysis might not capture such trends. 
+
 #### Table 2
 <img width="690" alt="Screen Shot 2022-12-24 at 1 20 41 PM" src="https://user-images.githubusercontent.com/120674894/209451294-41974605-25b7-455d-b381-dc88b7d0f90b.png">
 
 #### Table 3
 <img width="690" alt="Screen Shot 2022-12-24 at 1 19 26 PM" src="https://user-images.githubusercontent.com/120674894/209451275-d04eef73-eb53-4ff7-bc3d-17898941a05c.png">
-
