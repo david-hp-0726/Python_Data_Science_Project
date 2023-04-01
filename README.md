@@ -66,7 +66,7 @@ Data are collected from multiple sources, cleaned up, and compiled into the foll
 A line chart is created to model the trend in major depressive disorder and general anxiety disorder. While chart reveals significant fluctuations in national percentage of adults reporting mental symptoms, overall there does not appear to be a clear in crease or decrease. This is further supported by the result from a two-sample z-test revealing no statistical significant difference between pre- and post-covid mental health prevalence.
 
 #### Plot 1: National Mental Health Since Covid-19
-![health_us](https://user-images.githubusercontent.com/120674894/218907174-7f591a90-d062-4404-af98-cbda0534a771.png)
+![plot1](https://user-images.githubusercontent.com/120674894/229316393-4c6b44c8-2ae2-4961-819c-b412d5d20b3e.png)
 
 #### Table 1: Z-test Comparing Percentage of Adults Reporting Mental Health Symptoms Pre & Post Covid
 <img width="718" alt="Screen Shot 2022-12-24 at 1 22 14 PM" src="https://user-images.githubusercontent.com/120674894/209451316-7db9b566-ccb3-426a-9fdd-0f6875b5f26c.png">
@@ -93,13 +93,13 @@ The top-4 relevant variables identified by the model are percent employment, num
 The model had been manually tuned to optimize performance. The plots below compares the actual data with the model's predictions. As revealed by the plot, while the model seems to perform reasonably well on the training data, its predictions on the test data are not as accurate. In fact, the mean-square error of predictions on the validation data is 1.17 greater than predictions on the training data.
 
 #### Plot 5: Predictions on Training & Testing Data
-![predictions_both](https://user-images.githubusercontent.com/120674894/218911006-3bccf1fb-af63-4e07-bf11-e242fd37e230.png)
+![predictions_both](https://user-images.githubusercontent.com/120674894/229316402-33079c78-9b74-4b5f-b7a9-8155a27bfb33.png)
 
 #### Plot 6: Predictions on Training Data
-![predictions_train](https://user-images.githubusercontent.com/120674894/218911083-c70d8266-36ee-4db0-8918-4080f6115c9a.png)
+![predictions_train](https://user-images.githubusercontent.com/120674894/229316410-cff9172d-189f-410a-88bd-17a0e2b8a202.png)
 
 #### Plot 7: Predictions on Testing Data
-![predictions_test](https://user-images.githubusercontent.com/120674894/218911092-af674e55-507e-409e-9841-7f7f1b3185e1.png)
+![predictions_test](https://user-images.githubusercontent.com/120674894/229316407-406183e5-939a-4a9a-997e-73f777d4b08a.png)
 
 
 ## Model Analysis 
