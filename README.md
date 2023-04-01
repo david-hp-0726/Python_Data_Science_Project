@@ -1,6 +1,6 @@
 # Emory Data Science Club Project
 ### Description
-This project aims to study the influence of Covid-19 on mental health. Specifically, we want to answer the following questions.
+The Covid-19 pandemic has had negative impacts on both the physical health and financial well-being of many individuals. Many people lived in stress and isolation due to fear of contracting the virus and social distancing policies. Several important industries such as the airline and restaurant industries were forced to shut their services, and consequently many people became unemployed and faced increasing financial burdens. As existing studies have suggested, the various difficulties accompanying Covid-19 has led to deteriorating mental health across the US population. Data from the Center for Disease Control reveals a sharp rise in the percentage of US adults who reported major depressive disorder and general anxiety disorder immediately after the start of the pandemic. In light of the various negative repercussions Covid-19 has on people's livelihoods, this project aims to study the influence of Covid-19 on mental health. Specifically, we want to answer the following questions:
 1. Since the start of Covid-19, has there been an overall increase in the prevalence of mental health?
 2. What are some variables that can predict trends in national mental health?
 3. Which demographics have been worst influenced by mental health issues?
