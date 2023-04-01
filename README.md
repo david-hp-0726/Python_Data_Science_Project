@@ -63,7 +63,7 @@ Data are collected from multiple sources, cleaned up, and compiled into the foll
 
 # Discussion
 ## Question 1: Since the start of Covid-19, has there been an increase in mental health?
-A line chart is created to model the trend in major depressive disorder and general anxiety disorder. While chart reveals significant fluctuations in national percentage of adults reporting mental symptoms, overall there does not appear to be a clear in crease or decrease. This is further supported by the result from a two-sample z-test revealing no statistical significant difference between pre- and post-covid mental health prevalence.
+A line chart is created to model the trend in major depressive disorder and general anxiety disorder. While chart reveals significant fluctuations in national percentage of adults reporting mental symptoms, overall there does not appear to be a clear in crease or decrease. This is further supported by the result from a two-sample z-test revealing no statistical significant difference in prevalence of mental health issues pre and post covid.
 
 #### Plot 1: National Mental Health Since Covid-19
 ![plot1](https://user-images.githubusercontent.com/120674894/229316393-4c6b44c8-2ae2-4961-819c-b412d5d20b3e.png)
