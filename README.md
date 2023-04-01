@@ -3,6 +3,7 @@
 This project aims to study the influence of Covid-19 on mental health. Specifically, we want to answer the following questions.
 1. Since the start of Covid-19, has there been an overall increase in the prevalence of mental health?
 2. What are some variables that can predict trends in national mental health?
+3. Which demographics have been worst influenced by mental health issues?
 
 
 ### Data Sources
