@@ -2,8 +2,7 @@
 ### Description
 This project aims to study the influence of Covid-19 on mental health. Specifically, we want to answer the following questions.
 1. Since the start of Covid-19, has there been an overall increase in the prevalence of mental health?
-2. What are some variables that can predict mental health trends?
-3. Which demographics have been worst influenced by mental health issues?
+2. What are some variables that can predict trends in national mental health?
 
 
 ### Data Sources
@@ -71,7 +70,7 @@ A line chart is created to model the trend in major depressive disorder and gene
 #### Table 1: Z-test Comparing Percentage of Adults Reporting Mental Health Symptoms Pre & Post Covid
 <img width="718" alt="Screen Shot 2022-12-24 at 1 22 14 PM" src="https://user-images.githubusercontent.com/120674894/209451316-7db9b566-ccb3-426a-9fdd-0f6875b5f26c.png">
 
-## Question 2: What are some variables that can predict mental health?
+## Question 2: What are some variables that can predict trends in national mental health?
 ### Model Selection: XGBoost (Extreme Gradient Boosting)
 For the purpose of this question, a XGBoost model was created. XGBoost is a supervised learning algorithm well-suited for performing regression analysis on time-series data. The model is applied separate to each US state, with 75% of data used for training and 25% of data used for validation. The following plots are created using data from the state of New York. 
 
