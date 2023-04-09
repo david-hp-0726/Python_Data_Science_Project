@@ -112,7 +112,7 @@ The model had been manually tuned to optimize performance. The plots below compa
 
 ### 2. What are the most important features, or the most relevant factors to predicting mental health trends?
 #### Plot 10: Relative Importance of Variables
-![overall_feature_importances](https://user-images.githubusercontent.com/120674894/227739400-bf1b407d-06a8-4fd9-8723-e76458f420a7.png)
+![overall_feature_importances](https://user-images.githubusercontent.com/120674894/230800994-ec44a930-5c27-45fb-979c-7af8eef96ceb.png)
 
 ### 3. What are some factors that influence model performance?
 ### Learning Rate
